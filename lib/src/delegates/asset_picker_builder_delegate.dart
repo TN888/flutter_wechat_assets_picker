@@ -1153,7 +1153,7 @@ class DefaultAssetPickerBuilderDelegate
           padding: const EdgeInsets.symmetric(horizontal: 12),
           color: provider.isSelectedNotEmpty ? themeColor : theme.dividerColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(3),
+            borderRadius: BorderRadius.circular(25),
           ),
           child: ScaleText(
             provider.isSelectedNotEmpty && !isSingleAssetMode
