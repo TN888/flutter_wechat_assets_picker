@@ -1636,7 +1636,7 @@ class DefaultAssetPickerBuilderDelegate
             duration: duration,
             reverseDuration: duration,
             child: selected
-                ? const Icon(Icons.check, size: 18)
+                ? const Icon(Icons.check, size: 18, color: Colors.white)
                 : const SizedBox.shrink(),
           ),
         );

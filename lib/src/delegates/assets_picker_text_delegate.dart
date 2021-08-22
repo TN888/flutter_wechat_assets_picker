@@ -389,7 +389,7 @@ class JapaneseTextDelegate extends AssetsPickerTextDelegate {
 /// الترجمة العربية
 class ArabicTextDelegate extends AssetsPickerTextDelegate {
   @override
-  String get confirm => 'تؤكد';
+  String get confirm => 'تأكيد';
 
   @override
   String get cancel => 'إلغاء';
